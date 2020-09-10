@@ -1,0 +1,128 @@
+Script started on Sun Feb 17 19:56:40 2019
+]0;[cs12x]  cs12xcm@ieng6-201.ucsd.edu:/home/linux/ieng6/cs12x/cs12xcm/hw7[?1034h[I have no name!@ieng6-201]:hw7:499$ ./Driver1 -x
+[Tree UCSDStudentTree - Allocating]
+
+Initial Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 0 elements.
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Angie
+Please enter UCSD student number:  111
+[Tree UCSDStudentTree - Inserting Angie]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Alvin
+Please enter UCSD student number:  222
+[Tree UCSDStudentTree - Inserting Alvin]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  James
+Please enter UCSD student number:  333
+[Tree UCSDStudentTree - Comparing James and Angie]
+[Tree UCSDStudentTree - Inserting James]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  bob
+[Tree UCSDStudentTree - Comparing bob and Angie]
+[Tree UCSDStudentTree - Comparing bob and James]
+student bob not there!
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  I i
+Please enter UCSD student name to insert:  Richard
+Please enter UCSD student number:  5
+[Tree UCSDStudentTree - Comparing Richard and Angie]
+[Tree UCSDStudentTree - Comparing Richard and James]
+[Tree UCSDStudentTree - Inserting Richard]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  J Phillip
+Please enter UCSD student number:  9999
+[Tree UCSDStudentTree - Comparing Phillip and Angie]
+[Tree UCSDStudentTree - Comparing Phillip and James]
+[Tree UCSDStudentTree - Inserting Phillip]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  Ani gie     w
+[Tree UCSDStudentTree - Comparing w and Angie]
+[Tree UCSDStudentTree - Comparing w and James]
+[Tree UCSDStudentTree - Comparing w and Richard]
+student w not there!
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 5 elements.
+at height:  0  with balance:  0  name:  Alvin  studentnum:  222
+at height:  3  with balance:  -2  name:  Angie  studentnum:  111
+at height:  2  with balance:  -1  name:  James  studentnum:  333
+at height:  0  with balance:  0  name:  Phillip  studentnum:  9999
+at height:  1  with balance:  1  name:  Richard  studentnum:  5
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  Alvin
+Student removed!
+name:  Alvin  studentnum:  222
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  Angie
+Student removed!
+name:  Angie  studentnum:  111
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  Angie
+Please enter UCSD student number:  w 1
+[Tree UCSDStudentTree - Inserting Angie]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 4 elements.
+at height:  3  with balance:  -2  name:  Angie  studentnum:  1
+at height:  2  with balance:  -1  name:  James  studentnum:  333
+at height:  0  with balance:  0  name:  Phillip  studentnum:  9999
+at height:  1  with balance:  1  name:  Richard  studentnum:  5
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  
+Final Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 4 elements.
+at height:  3  with balance:  -2  name:  Angie  studentnum:  1
+at height:  2  with balance:  -1  name:  James  studentnum:  333
+at height:  0  with balance:  0  name:  Phillip  studentnum:  9999
+at height:  1  with balance:  1  name:  Richard  studentnum:  5
+[Tree UCSDStudentTree has been deallocated]
+
+[I have no name!@ieng6-201]:hw7:500$ ./Driver2 -x
+[Tree UCSDStudentTree - Allocating]
+
+Initial Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 0 elements.
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  me
+Please enter UCSD student number:  1
+[Tree UCSDStudentTree - Inserting me]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  you
+Please enter UCSD student number:  2
+[Tree UCSDStudentTree - Comparing you and me]
+[Tree UCSDStudentTree - Inserting you]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  me
+Student removed!
+name:  me  studentnum:  1
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  r
+Please enter UCSD student name to remove:  you
+[Tree UCSDStudentTree - Comparing you and me]
+Student removed!
+name:  you  studentnum:  2
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 0 elements.
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  i
+Please enter UCSD student name to insert:  me
+Please enter UCSD student number:  1
+[Tree UCSDStudentTree - Inserting me]
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  w
+The Symbol Table contains:
+Tree UCSDStudentTree:
+occupancy is 1 elements.
+at height:  1  with balance: -1  name:  me  studentnum:  1
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  
+Final Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 1 elements.
+at height:  1  with balance: -1  name:  me  studentnum:  1
+[I have no name!@ieng6-201]:hw7:501$ exit
+exit
+
+Script done on Sun Feb 17 19:58:42 2019

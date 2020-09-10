@@ -1,0 +1,4 @@
+Initial Symbol Table:
+Tree UCSDStudentTree:
+occupancy is 0 elements.
+Please enter a command:  ((a)llocate, is(e)mpty, (i)nsert, (l)ookup, (r)emove, (w)rite):  
